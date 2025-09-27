@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { IconDownload, IconCalendar } from "@tabler/icons-react";
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/lib/utils';
 import WaterDropButton from '../animations/WaterDropButton';
 
 const FloorPlanningSection = () => {

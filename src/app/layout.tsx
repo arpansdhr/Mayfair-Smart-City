@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { ReduxProvider } from '../components/providers/ReduxProvider';
 import SplashScreen from '../components/animations/SplashScreen';
 import ScrollManager from '../components/utils/ScrollManager';
+import { Toaster } from '@/components/ui/sonner';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -60,10 +61,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <ReduxProvider>
           <SplashScreen>
-            <ScrollManager/>
+            <ScrollManager />
             {children}
           </SplashScreen>
         </ReduxProvider>
+        <Toaster />
       </body>
     </html>
   );

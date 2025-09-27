@@ -5,9 +5,9 @@ import { FaTimes, FaBed, FaBath, FaRuler, FaMapMarkerAlt, FaHeart, FaShare } fro
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
 import Image from 'next/image';
-import { useAppDispatch, useAppSelector } from '@/src/lib/hooks';
-import { setSelectedProperty } from '@/src/lib/features/properties/propertiesSlice';
-import { setPropertyModalOpen } from '@/src/lib/features/ui/uiSlice';
+import { useAppDispatch, useAppSelector } from '@/lib/hooks';
+import { setSelectedProperty } from '@/lib/features/properties/propertiesSlice';
+import { setPropertyModalOpen } from '@/lib/features/ui/uiSlice';
 
 const PropertyModal = () => {
   const dispatch = useAppDispatch();

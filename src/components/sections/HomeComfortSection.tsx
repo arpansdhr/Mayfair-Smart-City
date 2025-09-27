@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { IconArrowNarrowRight, IconCheck } from "@tabler/icons-react";
 import { motion } from 'framer-motion';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/lib/utils';
 import Carousel from '../ui/carousel';
 
 const HomeComfortSection = () => {
